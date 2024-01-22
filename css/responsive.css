@@ -1,0 +1,168 @@
+@media (max-width: 991px) {
+  /* custom css */
+  section {
+    padding: 30px 0;
+  }
+  .banner_wrapper h1 {
+    background-color: rgba(8, 32, 50, 0.3);
+    padding: 10px;
+    border-radius: 25px;
+    background-position: center;
+    margin: 0 10%;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  /* 2 Navbar */
+  .header-scrolled {
+    height: auto;
+  }
+
+  .header_wrapper .menu-navbar-nav {
+    text-align: left;
+    background-color: rgba(1, 12, 26, 0.95);
+    padding-bottom: 15px;
+    padding-left: 30px;
+    width: 50%;
+  }
+  .header_wrapper .menu-navbar-nav .mainbtn {
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 15px;
+  }
+
+  /* banner wrapper */
+  .banner_wrapper {
+    padding: 200px 0;
+  }
+
+  /* About */
+  .about_wrapper ul.nav-pills {
+    width: 61%;
+    margin: auto;
+  }
+
+  /* portfolio */
+  .portfolio_wrapper .card {
+    min-height: 400px;
+  }
+  /* about skills */
+  .stew:hover {
+    background-color: var(--yellow-color);
+  }
+  .prob {
+    margin-top: -200px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  /* custom css */
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  /* About */
+  .about_wrapper ul.nav-pills {
+    width: 100%;
+    margin: auto;
+    border: 0;
+  }
+  .about_wrapper ul li .nav-link {
+    font-size: 13px;
+  }
+
+  /* portfolio */
+  .portfolio_wrapper .card {
+    min-height: 500px;
+  }
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .direct-contact-container,
+  .form-horizontal {
+    margin: 0 auto;
+  }
+
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 300px;
+  }
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .direct-contact-container,
+  .form-wrapper {
+    float: none;
+    margin: 0 auto;
+  }
+  .form-control,
+  textarea {
+    margin: 0 auto;
+  }
+
+  .name,
+  .email,
+  textarea {
+    width: 280px;
+  }
+
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 280px;
+  }
+  .social-media-list {
+    left: 0;
+  }
+  .social-media-list li {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    font-size: 2rem;
+  }
+  .social-media-list li:after {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .send-button {
+    width: 99%;
+  }
+}
